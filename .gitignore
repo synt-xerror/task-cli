@@ -1,2 +1,4 @@
 task.o
 task
+libtoybox.a
+toybox.o
