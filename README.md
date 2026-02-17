@@ -29,7 +29,7 @@ task read
 
 the output will look like:
 ```
-0. [ ] take a bath please
+0. [ ] take a bath (please)
 ```
 
 ## done
