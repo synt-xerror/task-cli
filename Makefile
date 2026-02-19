@@ -1,6 +1,6 @@
 CFLAGS  := $(shell pkg-config --cflags glib-2.0)
 LDFLAGS := $(shell pkg-config --libs glib-2.0)
-HOME	:= $($HOME)
+HOME	:= $(HOME)
 
 task:
 	gcc -c toybox.c -o toybox.o
