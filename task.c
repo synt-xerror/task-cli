@@ -139,7 +139,10 @@ int main(int argc, char* argv[])
 		}
 		rewind(task_f);
 	
-		printf("\n");
+    if (lines < 1) {
+      printf("no tasks.");
+    }
+
 		fclose(task_f);
 
 	} else if (strcmp(argv[1], "done") == 0) {
